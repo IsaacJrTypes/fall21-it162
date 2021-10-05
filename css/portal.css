@@ -1,11 +1,20 @@
 /* My it162 Portal Website Styles */
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 html {
-    background-color:#ccc;
+    box-sizing: border-box;
+    background-color:#E5E5E5;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
 main.wrapper {
-    background-color:#fff;
+    background-color:#FFFFFF;
     overflow:auto;
 }
 
@@ -14,8 +23,14 @@ h1>a {
     color:#000;
 }
 
+h2 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
 .logo {
-    color:rgb(105, 97, 97);
+    color:#14213D;
     margin-left:1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
@@ -41,74 +56,67 @@ div.embed-container iframe {
 
 footer {
 	clear:both;
+    text-align: center;
+    background-color: antiquewhite;
 }
+
+
 
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
-@media all and (min-width:1400px) {
+@media all and (min-width:1200px) {
 	
    main.wrapper {
 		width:80%;
 		margin:auto;
+        border-radius: 25px;
 	}
 
     section {
-		width:65%;
-		float:left;
-	}
-	
-     aside {	
-		width:34%;
-		float:right;
+		width: 100%;
+		
 	}
 			
     img.desktop {
-      		/* float:left; */
-       		width:50%;
-            display:inline-block;
+        width: 50%;
+        float: left;
+        margin: 0 1em 1em 0;
     }
     
     img.tablet, img.phone {
-       	display:none;
-    	}  
+        display: none;
+    }
     
+    p {
+        margin: 1em;
+    }
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        		background-color: #ccc;
-        		color:#000;
+        		background-color: #4f679c;
+        		color:#FFFFFF;
    	 }
 }
 
 
 /* TABLET */
-@media all and (min-width:737px) and (max-width:1399px) {
+@media all and (min-width:737px) and (max-width:1199px) {
 	
 	section {
 		width:60%;
 		float:left;
 	}
-	
-	aside {	
-		width:39%;
-		float:right;
-	}
+
 	
     img.tablet {
-       		width:100%;
-            display:inline-block;
+       		width: 50%;
+            float: right;
+            background-color: aqua;
     }
     
     img.desktop, img.phone {
        	display:none;
     	}  
-    
-    
-    /* Change background color of navigation on selected page */
-    ul.topnav li a.selected {
-        background-color: #ccc;
-        color:#000;
-    }
 }
 
 /* PHONE */
@@ -116,7 +124,7 @@ footer {
     
     img.phone {
        		width:100%;
-            display:inline-block;
+            
     }
     
     img.tablet, img.desktop {
