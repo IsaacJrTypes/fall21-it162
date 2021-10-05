@@ -37,6 +37,12 @@ h2 {
 }
 
 /* Embed Responsively Rules! */
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #4f679c;
+        color:#FFFFFF;
+}
+
 div.embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -59,6 +65,7 @@ footer {
     text-align: center;
     background-color: antiquewhite;
 }
+
 
 
 
@@ -91,11 +98,7 @@ footer {
     p {
         margin: 1em;
     }
-    /* Change background color of navigation on selected page */
-    ul.topnav li a.selected {
-        		background-color: #4f679c;
-        		color:#FFFFFF;
-   	 }
+
 }
 
 
@@ -103,13 +106,13 @@ footer {
 @media all and (min-width:737px) and (max-width:1199px) {
 	
 	section {
-		width:60%;
-		float:left;
+		width:50%;
 	}
 
 	
     img.tablet {
        		width: 50%;
+            margin: 0 0 1em 1em;
             float: right;
             background-color: aqua;
     }
@@ -124,8 +127,8 @@ footer {
     
     img.phone {
        		width:100%;
-            
-    }
+            clear: both;
+        }
     
     img.tablet, img.desktop {
        	display:none;
