@@ -22,7 +22,7 @@
             </h1>
             <nav>
                 <ul class="topnav" id="myTopnav">
-                    <li><a href="index.php" class="selected">Home</a></li>
+                    <li><a href="index.php" class="selected">Welcome</a></li>
                     <li><a href="big/index.php">Big</a></li>
                     <li><a href="aia.php">AIA</a></li>
                     <li><a href="flowchart.php">Flowchart/Layout</a></li>
