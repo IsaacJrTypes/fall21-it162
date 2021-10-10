@@ -25,7 +25,6 @@ h1>a {
 
 h2 {
     font-weight: normal;
-    margin-left: 1em;
     line-height: 1em;
 }
 
@@ -63,10 +62,11 @@ div.embed-container iframe {
 footer {
 	clear:both;
     text-align: center;
-    background-color: antiquewhite;
 }
 
-
+p {
+    margin: 1em;
+}
 
 
 /* START RESPONSIVE STYLES */
@@ -84,6 +84,10 @@ footer {
 		width: 100%;
 		
 	}
+
+    h2 {
+        margin-left: 1em;
+    }
 			
     img.desktop {
         width: 50%;
@@ -93,10 +97,6 @@ footer {
     
     img.tablet, img.phone {
         display: none;
-    }
-    
-    p {
-        margin: 1em;
     }
 
 }
@@ -114,7 +114,6 @@ footer {
        		width: 50%;
             margin: 0 0 1em 1em;
             float: right;
-            background-color: aqua;
     }
     
     img.desktop, img.phone {
