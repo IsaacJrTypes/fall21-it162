@@ -1,9 +1,9 @@
 <?php include 'includes/header.php'; ?>
 
 <section>
-    <h2 class="pageID">BIG</h2>
+    <h2 class="pageID">AIA Assignment</h2>
     <p>
-        Page will include information on BIG assignments. Coming soon!
+        Coming soon! Page will soon include information on AIA assignment.
     </p>
 </section>
 
