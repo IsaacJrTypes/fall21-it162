@@ -1,9 +1,10 @@
+<?php include 'portal-config.php' ?>
 <!-- PHP Header Start -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>IT162 Portal</title>
+    <title><?=$title?></title>
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8" />
@@ -18,7 +19,7 @@
     <main class="wrapper">
         <header>
             <h1>
-                <a href="index.php"><i class="logo fa fa-home"></i> Isaac Jimenez's SCC IT162 Portal</a>
+                <a href="index.php"><i class="logo fa <?=$logo?>"></i> Isaac Jimenez's SCC IT162 Portal</a>
             </h1>
             <nav>
                 <ul class="topnav" id="myTopnav">
