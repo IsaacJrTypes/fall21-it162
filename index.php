@@ -3,11 +3,9 @@
 <img class="desktop" src="images/desktop.JPG" alt="Photo of me in France" />
 <img class="tablet" src="images/tablet.jpg" alt="Photo I took admiring the architecture in Gothic District, Barcelona" />
 <img class="phone" src="images/phone_skull.JPG" alt="Photo of a sugar skull I took in Mexico, while visiting my extended family" />
-<!-- END LEFT COL -->
 
-<!-- START RIGHT COL -->
-<section>
-    <h2 class="pageID">Welcome!</h2>
+<!-- START RIGHT/LEFT COL -->
+<div>
     <p>
         My name is Isaac Jimenez. I am currently enjoying the programming side
         of web development. Growing up, the world wide web was always a
@@ -23,6 +21,6 @@
         learning about mechanisms of the brain to optimize my own personal
         growth.
     </p>
-</section>
+    </div>
 
 <?php include 'includes/footer.php'; ?>
