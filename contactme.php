@@ -1,6 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-    <h2 class="pageID">Contact Me</h2>
     <?php
     /*
          * Below are 2 different forms to be re-used       

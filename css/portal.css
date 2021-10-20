@@ -16,7 +16,11 @@ html {
 main.wrapper {
     background-color:#FFFFFF;
     overflow:auto;
+    width:80%;
+    margin:auto;
+    border-radius: 25px;
 }
+
 
 h1>a {
     text-decoration: none;
@@ -70,17 +74,13 @@ p {
 }
 
 
+
+
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
 	
-   main.wrapper {
-		width:80%;
-		margin:auto;
-        border-radius: 25px;
-	}
-
     section {
 		width: 100%;
 		
@@ -106,8 +106,12 @@ p {
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1199px) {
 	
+    main.wrapper {
+        width: 98%;
+    }
+
 	section {
-		width:50%;
+		width:100%;
 	}
 
 	
@@ -124,6 +128,9 @@ p {
 
 /* PHONE */
 @media all and (max-width:736px) {
+    main.wrapper {
+        width: 100%;
+        }
     
     img.phone {
        		width:100%;
