@@ -35,4 +35,5 @@
                 </ul>
             </nav>
         </header>
+        <section>
         <!-- PHP Header Ends -->

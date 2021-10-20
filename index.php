@@ -6,9 +6,8 @@
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
-<section>
-    <h2 class="pageID">Welcome!</h2>
-    <p>
+<div class="main-text">
+    <p >
         My name is Isaac Jimenez. I am currently enjoying the programming side
         of web development. Growing up, the world wide web was always a
         magical place. It was a free resource to learn anything you ever
@@ -23,6 +22,6 @@
         learning about mechanisms of the brain to optimize my own personal
         growth.
     </p>
-</section>
+    </div>
 
 <?php include 'includes/footer.php'; ?>

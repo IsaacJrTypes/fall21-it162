@@ -1,4 +1,5 @@
       <!-- PHP Footer START -->
+      </section>
       <footer>
           <p>
               <small>&copy; 2021 by <a href="contact.php">Isaac Jimenez</a>, All Rights

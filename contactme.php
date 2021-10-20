@@ -1,6 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-<section>
     <h2 class="pageID">Contact Me</h2>
     <?php
     /*
@@ -20,6 +19,5 @@
     //echo loadContact('multiple.php');#demonstrates multiple form elements
 
     ?>
-</section>
 
 <?php include 'includes/footer.php'; ?>
