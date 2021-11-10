@@ -1,0 +1,35 @@
+table {
+    border: 2px solid #000;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #fff
+  }
+  tr {
+      vertical-align: top;
+  }
+  td,th {
+      border:1px dotted #000;
+      padding: .5em;
+  }
+  table.client {
+      margin: 40px auto;
+  }
+  table.client th {
+      text-align: left;
+      width: 30%;
+  }
+  table.audience {
+      margin: 40px auto;
+  }
+  table.audience th {
+      width: 33.3%;
+      text-align: left;
+  }
+  table.audience tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+  caption{
+      text-align: left;
+      margin-left: 2px;
+  }
