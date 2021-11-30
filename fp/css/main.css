@@ -1,0 +1,37 @@
+/*GLOBAL Website Styles*/
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* End of RESETS */
+
+body {
+    background-color: bisque;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin-top: 2rem;
+}
