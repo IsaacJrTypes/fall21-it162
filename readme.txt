@@ -27,8 +27,8 @@ INSTALLATION: The main installation steps can be outlined as follows:
 SITE KEYS: If you're using web-students.net as your server as done in WEB110, you won't need to edit the API keys inside contact_include.php.  However, to use this code on other servers you'll need to get a pair of API keys and load them into the variables inside contact_include.php.
 
 //MAKE SURE THE SITE KEYS MATCH YOUR SITE!  THESE ARE FOR web-students.net
-$siteKey = "6LeDaSoUAAAAACnEiqA3QAkiRU-Q_wtk0vuBa_OX";
-$secretKey = "6LeDaSoUAAAAACJ69mIHYOxL4atri9oPrjkIVMFv";
+$siteKey = "";
+$secretKey = "";
 
 BACKGROUND: The main file we have which interacts with google's reCAPTCHA service is named contact_include.php.  This file provides the code that supports simple.php and multiple.php
 
