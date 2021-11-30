@@ -28,11 +28,23 @@ switch(THIS_PAGE){
         $logo = 'fa-home';
         $PageID = 'Welcome';
     break;
+
+    case 'big/index.php':
+        $title = "Isaac's IT162 Home Page";
+        $logo = 'fa-home';
+        $PageID = 'Big Assignment';
+    break;
     
     case 'aia.php':
         $title = "Isaac's IT162 AIA Page";
         $logo = 'fa-users';
         $PageID = 'AIA Assignment';
+    break;
+
+    case 'fp/index.php':
+        $title = "Isaac's IT162 Home Page";
+        $logo = 'fa-home';
+        $PageID = 'Final Project';
     break;
 
     case 'flowchart.php':
