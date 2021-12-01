@@ -1,219 +1,352 @@
-.toggle,
-[id^='drop'] {
-  display: none;
-}
-
-/* Giving a background-color to the nav container. */
-nav {
-  background-color: whitesmoke;
-  border: 2px solid black;
-  border-radius: 0.4rem;
-}
-
-#logo {
-  display: block;
-  padding: 0 30px;
-  float: left;
-  font-size: 3rem;
-  line-height: 6rem;
-}
-
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
-
-nav:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
-nav ul {
-  float: right;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
   list-style: none;
-  position: relative;
-}
-
-/* Positioning the navigation items inline */
-nav ul li {
-  float: left;
-  background-color: whitesmoke;
-}
-
-/* Styling the links */
-nav a {
+  line-height: 1;
   display: block;
-  padding: 2.2rem 2rem;
-  color: #000000;
-  font-size: 17px;
-  text-decoration: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-nav ul li ul li:hover {
-  background: #f1eeee;
+#cssmenu {
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 100%;
 }
-
-/* Background color change on Hover */
-nav a:hover {
-  background: #86827abe;
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
-
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
-nav ul ul {
+#cssmenu #menu-button {
   display: none;
-  position: absolute;
-  /* has to be the same number as the "line-height" of "nav a" */
-  top: 60px;
 }
-
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-  display: inherit;
+#cssmenu {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
+  background: #f5f5f5;
 }
-
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-  width: 170px;
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
   float: none;
-  display: list-item;
-  position: relative;
 }
-
-/* Second, Third and more Tiers	
- * We move the 2nd and 3rd etc tier dropdowns to the left
- * by the amount of the width of the first tier.
-*/
-nav ul ul ul li {
-  position: relative;
-  top: -60px;
-  /* has to be the same number as the "width" of "nav ul ul li" */
-  left: 170px;
+#cssmenu.align-center ul ul {
+  text-align: left;
 }
-
-/* Change ' +' in order to change the Dropdown symbol */
-li > a:after {
-  content: ' +';
+#cssmenu.align-right > ul > li {
+  float: right;
 }
-li > a:only-child:after {
+#cssmenu > ul > li > a {
+  padding: 17px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li:hover > a {
+  color: #555252;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 30px;
+}
+#cssmenu > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #000000e0;
   content: '';
 }
-
-/* Media Queries
---------------------------------------------- */
-
-@media all and (max-width: 768px) {
-  main {
-    width: 100%;
-  }
-
-  #logo {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
-
-  nav {
-    border: none;
-  }
-
-  /* Hide the navigation menu by default */
-  /* Also hide the  */
-  .toggle + a,
-  .menu {
-    display: none;
-  }
-
-  /* Stylinf the toggle lable */
-  .toggle {
-    display: block;
-    background-color: #e6ebea;
-    padding: 14px 20px;
-    color: black;
-    font-size: 1.7rem;
-    text-decoration: none;
-    border: none;
-    width: 100vw;
-  }
-
-  .toggle:hover {
-    background-color: #000000;
-  }
-
-  /* Display Dropdown when clicked on Parent Lable */
-  [id^='drop']:checked + ul {
-    display: block;
-  }
-
-  nav ul {
-    float: left;
-  }
-
-  /* Change menu item's width to 100% */
-  nav ul li {
-    display: block;
-    width: 100vw;
-  }
-
-  nav ul ul .toggle,
-  nav ul ul a {
-    padding: 0 40px;
-  }
-
-  nav ul ul ul a {
-    padding: 0 80px;
-  }
-
-  nav a:hover,
-  nav ul ul ul a {
-    background-color: #000000;
-  }
-
-  nav ul li ul li .toggle,
-  nav ul ul a,
-  nav ul ul ul a {
-    padding: 14px 20px;
-    color: #fff;
-    font-size: 17px;
-  }
-
-  nav ul li ul li .toggle,
-  nav ul ul a {
-    background-color: #212121;
-  }
-
-  /* Hide Dropdowns by Default */
-  nav ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-    /* has to be the same number as the "line-height" of "nav a" */
-  }
-
-  /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
-    display: none;
-  }
-
-  /* Fisrt Tier Dropdown */
-  nav ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  nav ul ul ul li {
-    position: static;
-    /* has to be the same number as the "width" of "nav ul ul li" */
-  }
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #000000e0;
+  content: '';
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
-
-@media all and (max-width: 330px) {
-  nav ul li {
-    display: block;
-    width: 94%;
-  }
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  z-index: 2;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu li:hover > ul > li {
+  height: 35px;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li a {
+  border-bottom: 1px solid rgba(48, 46, 46, 0.15);
+  padding: 11px 15px;
+  width: 123.66px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  background: #f5f5f5;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #635959;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0;
+}
+#cssmenu.small-screen {
+  width: 100%;
+}
+#cssmenu.small-screen ul {
+  width: 100%;
+  display: none;
+}
+#cssmenu.small-screen.align-center > ul {
+  text-align: left;
+}
+#cssmenu.small-screen ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+#cssmenu.small-screen ul ul li,
+#cssmenu.small-screen li:hover > ul > li {
+  height: auto;
+}
+#cssmenu.small-screen ul li a,
+#cssmenu.small-screen ul ul li a {
+  width: 100%;
+  border-bottom: 0;
+}
+#cssmenu.small-screen > ul > li {
+  float: none;
+}
+#cssmenu.small-screen ul ul li a {
+  padding-left: 25px;
+}
+#cssmenu.small-screen ul ul ul li a {
+  padding-left: 35px;
+}
+#cssmenu.small-screen ul ul li a {
+  color: #000000;
+  background: none;
+}
+#cssmenu.small-screen ul ul li:hover > a,
+#cssmenu.small-screen ul ul li.active > a {
+  color: #555252;
+}
+#cssmenu.small-screen ul ul,
+#cssmenu.small-screen ul ul ul,
+#cssmenu.small-screen.align-right ul ul {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+#cssmenu.small-screen > ul > li.has-sub > a:after,
+#cssmenu.small-screen > ul > li.has-sub > a:before,
+#cssmenu.small-screen ul ul > li.has-sub > a:after,
+#cssmenu.small-screen ul ul > li.has-sub > a:before {
+  display: none;
+}
+#cssmenu.small-screen #menu-button {
+  display: block;
+  padding: 17px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#cssmenu.small-screen #menu-button:after {
+  position: absolute;
+  top: 22px;
+  right: 17px;
+  display: block;
+  height: 4px;
+  width: 20px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  content: '';
+  box-sizing: content-box;
+}
+#cssmenu.small-screen #menu-button:before {
+  position: absolute;
+  top: 16px;
+  right: 17px;
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #000000;
+  content: '';
+  box-sizing: content-box;
+}
+#cssmenu.small-screen #menu-button.menu-opened:after {
+  top: 23px;
+  border: 0;
+  height: 2px;
+  width: 15px;
+  background: #f5f5f5;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#cssmenu.small-screen #menu-button.menu-opened:before {
+  top: 23px;
+  background: #f5f5f5;
+  width: 15px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#cssmenu.small-screen .submenu-button {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  display: block;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened {
+  background: #f5f5f5;
+}
+#cssmenu.small-screen ul ul .submenu-button {
+  height: 34px;
+  width: 34px;
+}
+#cssmenu.small-screen .submenu-button:after {
+  position: absolute;
+  top: 22px;
+  right: 19px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #000000e0;
+  content: '';
+}
+#cssmenu.small-screen ul ul .submenu-button:after {
+  top: 15px;
+  right: 13px;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened:after {
+  background: #000000e0;
+}
+#cssmenu.small-screen .submenu-button:before {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #000000e0;
+  content: '';
+}
+#cssmenu.small-screen ul ul .submenu-button:before {
+  top: 12px;
+  right: 16px;
+}
+#cssmenu.small-screen .submenu-button.submenu-opened:before {
+  display: none;
+}
+#cssmenu.small-screen.select-list {
+  padding: 5px;
 }
