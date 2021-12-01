@@ -44,19 +44,19 @@ nav ul li {
 /* Styling the links */
 nav a {
   display: block;
-  padding: 2rem;
+  padding: 2.2rem 2rem;
   color: #000000;
   font-size: 17px;
   text-decoration: none;
 }
 
 nav ul li ul li:hover {
-  background: #000000;
+  background: #f1eeee;
 }
 
 /* Background color change on Hover */
 nav a:hover {
-  background-color: #000000;
+  background: #86827abe;
 }
 
 /* Hide Dropdowns by Default
@@ -130,10 +130,10 @@ li > a:only-child:after {
   /* Stylinf the toggle lable */
   .toggle {
     display: block;
-    background-color: #254441;
+    background-color: #e6ebea;
     padding: 14px 20px;
-    color: #fff;
-    font-size: 17px;
+    color: black;
+    font-size: 1.7rem;
     text-decoration: none;
     border: none;
     width: 100vw;
