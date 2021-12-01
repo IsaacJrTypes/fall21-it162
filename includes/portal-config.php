@@ -68,7 +68,7 @@ $nav1['index.php'] = 'Home';
 $nav1['big/index.php'] = 'Big';
 $nav1['aia.php'] = 'AIA';
 $nav1['flowchart.php'] = 'Flowchart';
-$nav1['fp/templet.html'] = 'Final Project';
+$nav1['fp/templete.html'] = 'Final Project';
 $nav1['contactme.php'] = 'Contact Isaac';
 
 /*

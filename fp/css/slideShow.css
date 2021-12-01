@@ -70,7 +70,7 @@ body {
 
 /* The dots/bullets/indicators */
 .dot-container {
-    margin-top: 0;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
 }
