@@ -2,6 +2,7 @@
 /* CSS Reset */
 html {
   box-sizing: border-box;
+  /*Sets rem to 10px */
   font-size: 62.5%;
 }
 *,
@@ -16,8 +17,6 @@ html {
 
 img {
   width: 100%;
-  vertical-align: middle;
-  object-fit: cover;
 }
 
 /* End of RESETS */
@@ -28,7 +27,7 @@ body {
 
 main {
   margin: auto;
-  width: 90%;
+  width: 95%;
   height: 100vh;
 }
 
@@ -117,4 +116,36 @@ div.disclaimer p {
   line-height: 1.2;
 }
 
+/* Media Inquiry */
 
+/*  Lrg Phone/ Small Tablet Breakpoint */
+@media screen and (min-width: 578px) {
+  main {
+    width: 95%;
+  }
+}
+
+/* Service Page Tablet-Desktop Breakpoint */
+@media screen and (min-width: 643px) {
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+
+/* Width Desktop Breakpoint */
+@media screen and (min-width: 968px) {
+  body {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* Width LRG Desktop Breakpoint */
+@media screen and (min-width: 1320px) {
+  body {
+    width: 1320px;
+    margin: auto;
+  }
+
+}

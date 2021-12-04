@@ -7,7 +7,7 @@ body {
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Hide the images by default */
@@ -16,7 +16,9 @@ body {
 }
 
 .mySlides img {
-  height: 90vh;
+  height: 50vh;
+  vertical-align: middle;
+  
 }
 
 /* Next & previous buttons */
@@ -70,6 +72,7 @@ body {
 
 /* The dots/bullets/indicators */
 .dot-container {
+    margin-top: .75rem;
     padding-bottom: 1rem;
     display: flex;
     justify-content: center;
@@ -115,3 +118,29 @@ body {
     opacity: 1;
   }
 }
+
+/* Reduce SlideShow Image distortion Breakpoint */
+@media screen and (min-width: 425px) {
+    .mySlides img {
+        height: 60vh;
+        object-fit: fill;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .mySlides img {
+        width: 100%;
+        object-fit: fill;
+      }
+  }
+
+
+/* SlideShow Tablet-Desktop Breakpoint */
+@media screen and (min-width: 643px) {
+    .mySlides img {
+        height: 80vh;
+      }
+  }
+
+
+
