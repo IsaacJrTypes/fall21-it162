@@ -22,7 +22,7 @@ img {
 /* End of RESETS */
 
 body {
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 main {
@@ -48,6 +48,7 @@ div.logo-box h1 {
 div.logo-box h1 a {
   color: #000;
   text-decoration: none;
+  text-shadow: 2px 4px 7px rgba(0,0,0,0.3);
 }
 
 /* Service Section */
@@ -61,7 +62,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-height: 30vh;
   min-width: 10rem;
 }
@@ -77,7 +78,7 @@ h2 {
 
 [class^='card'] {
   background: #f5f5f5;
-  border: 2px solid green;
+  border: 2px solid black;
   border-radius: 1.5rem;
   width: 25rem;
   margin: 1.5rem;
@@ -111,19 +112,22 @@ section.frontpage-shopping {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-width: 10rem;
   align-items: center;
 }
 
 .wrap-item {
-  background: darkorchid;
+  /* background: darkorchid; */
   margin: 4rem 0 ;
+  font-size: 1.5rem;
 }
 
 .heading-shopping h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-style: italic;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+  0px -5px 16px rgba(255,255,255,0.3);
 }
 
 .heading-shopping h3 p {
@@ -161,14 +165,15 @@ section.frontpage-shopping {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 1.3rem;
   margin: 0.5em;
-  width: 175px;
+  width: 17.5rem;
   height: 10rem;
   color: #f5f5f5;
 }
 
 .footer-link p.social {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   padding-top: 2rem;
   padding-left: 0.25rem;
 }
