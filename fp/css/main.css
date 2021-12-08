@@ -50,6 +50,16 @@ div.logo-box h1 a {
   text-decoration: none;
 }
 
+/* Service Section */
+[class^="container-card"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid black; 
+  min-height: 25vh;
+  min-width: 10rem;
+}
+
 /* Footer */
 .flex-container {
   display: flex;
