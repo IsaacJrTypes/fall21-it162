@@ -57,7 +57,7 @@ switch (THIS_PAGE) {
         $PageID = 'Contact Isaac';
         break;
 
-    case 'fp/index.php':
+    case 'index1.php':
         $title = 'Photography Services';
         break;
 
@@ -72,7 +72,7 @@ $nav1['index.php'] = 'Home';
 $nav1['big/index.php'] = 'Big';
 $nav1['aia.php'] = 'AIA';
 $nav1['flowchart.php'] = 'Flowchart';
-$nav1['fp/index.php'] = 'Final Project';
+$nav1['fp/index1.php'] = 'Final Project';
 $nav1['contactme.php'] = 'Contact Isaac';
 
 /*

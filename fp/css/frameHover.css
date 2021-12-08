@@ -14,7 +14,7 @@
 }
 
 .text-link {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 3rem;
   position: absolute;
   top: 50%;
@@ -27,5 +27,5 @@
 
 .overlay .text-link a,
 .overlay .text-link a:after {
-  color: white;
+  color: rgb(0, 0, 0);
 }

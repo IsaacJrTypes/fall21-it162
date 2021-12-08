@@ -1,6 +1,8 @@
+<?php include 'fp-config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title><?= $title ?></title>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex,nofollow" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,21 +22,21 @@
     <!-- Menu Maker Plugin -->
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
     <script src="js/navScript.js"></script>
-    <title><?= $title ?></title>
+    
   </head>
   <body>
     <main>
       <!-- Start Header -->
       <header>
         <div class="logo-box">
-          <h1><a href="index.php">Octavio Jimenez Photography</a></h1>
+          <h1><a href="index1.php">Octavio Jimenez Photography</a></h1>
         </div>
         <nav id="cssmenu">
           <ul>
             <li>
               <a href="#">About</a>
               <ul>
-                <li><a href="index.php#service">Services</a></li>
+                <li><a href="index1.php#service">Services</a></li>
                 <li><a href="#">Profile</a></li>
               </ul>
             </li>
