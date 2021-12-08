@@ -1,10 +1,9 @@
-<?php include 'portal-config.php' ?>
-<!-- PHP Header Start -->
+<?php include 'portal-config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title><?=$title?></title>
+    <title><?= $title ?></title>
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8" />
@@ -20,11 +19,11 @@
     <main class="wrapper">
         <header>
             <h1>
-                <a href="index.php"><i class="logo fa <?=$logo?>"></i> Isaac Jimenez's SCC IT162 Portal</a>
+                <a href="index.php"><i class="logo fa <?= $logo ?>"></i> Isaac Jimenez's SCC IT162 Portal</a>
             </h1>
             <nav>
                 <ul class="topnav" id="myTopnav">
-                    <?=makeLinks($nav1)?>
+                    <?= makeLinks($nav1) ?>
                     <li class="icon">
                         <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
                     </li> 
@@ -32,5 +31,5 @@
             </nav>
         </header>
         <section>
-            <h2 class="pageID"><?=$PageID?></h2>
+            <h2 class="pageID"><?= $PageID ?></h2>
         <!-- PHP Header Ends -->

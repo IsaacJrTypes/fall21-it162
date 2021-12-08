@@ -124,6 +124,11 @@ section.frontpage-shopping {
   /* background: darkorchid; */
   margin: 4rem 0;
   font-size: 1.5rem;
+  min-height: 40vh;
+}
+
+.heading-shopping {
+  padding: 10rem 0.5rem;
 }
 
 .heading-shopping h3 {
