@@ -101,7 +101,7 @@ h2 {
 .card .feature-list p {
   text-align: left;
   font-size: 1.6rem;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 /* Frontpage Shopping Section */
@@ -133,7 +133,7 @@ section.frontpage-shopping {
     0px -5px 16px rgba(255, 255, 255, 0.3);
 }
 
-.heading-shopping h3 p {
+.heading-shopping h3 span {
   display: inline-block;
   font-size: 1.3rem;
 }
