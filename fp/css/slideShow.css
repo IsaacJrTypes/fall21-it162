@@ -16,7 +16,7 @@ body {
 }
 
 .mySlides img {
-  height: 50vh;
+  height: 40vh;
   vertical-align: middle;
   
 }
@@ -122,7 +122,7 @@ body {
 /* Reduce SlideShow Image distortion Breakpoint */
 @media screen and (min-width: 425px) {
     .mySlides img {
-        height: 60vh;
+        height: 55vh;
         object-fit: fill;
     }
 }
