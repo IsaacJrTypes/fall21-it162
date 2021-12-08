@@ -56,8 +56,16 @@ div.logo-box h1 a {
   flex-wrap: wrap;
   justify-content: space-around;
   border: 2px solid black; 
-  min-height: 25vh;
+  min-height: 30vh;
   min-width: 10rem;
+}
+
+[class^="card"] {
+  background: #f5f5f5;
+  border: 2px solid green;
+  border-radius: 1.5rem;
+  width: 25rem;
+  margin: 1.5rem;
 }
 
 /* Footer */
