@@ -1,0 +1,50 @@
+/* Blog page Css */
+.flex-container.blog {
+    flex-direction: column;
+    background-image: none;
+    background-color: #f5f5f5;
+}
+
+
+.header-blog {
+    text-align: start;
+    margin-left: 1%;
+}
+
+.content-blog {
+    margin: 2rem 0;
+}
+
+
+.aside-blog {
+    display: flex;
+    flex-direction: column;
+    
+    background: burlywood;
+
+}
+
+
+
+
+@media screen and (min-width: 643px) {
+    .flex-container.blog {
+        flex-direction: row;
+        background-image: none;
+    }
+
+    .img-blog {
+        width: 50vw;
+    }
+
+    .content-blog {
+        
+        width: 45vw;
+    }
+
+    .aside-blog {
+        border-left: 1px solid gray;
+        min-width: 30%;
+    }
+      
+  }
