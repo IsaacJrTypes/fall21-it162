@@ -23,6 +23,7 @@ figcaption {
     font-size: .7em;
 }
 
+/* scale img for med-lrg screens */
 @media screen and (min-width: 548px) {
     .grid-item img.lrg {
         height: 19rem;
