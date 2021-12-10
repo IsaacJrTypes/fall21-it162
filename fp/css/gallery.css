@@ -26,7 +26,6 @@ figcaption {
 @media screen and (min-width: 548px) {
     .grid-item img.lrg {
         height: 19rem;
-        object-fit: scale-down;
       }
       
   }
