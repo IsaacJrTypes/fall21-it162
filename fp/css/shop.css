@@ -1,0 +1,63 @@
+/* Shop page CSS */
+.grid.container-card.item-shop {
+}
+.container-card.item-shop {
+  text-align: start;
+  position: relative;
+}
+
+.container-card.item-shop img {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.header-item-shop h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0.75rem 1rem;
+}
+
+.price {
+  color: rgba(128, 128, 128, 0.7);
+}
+
+.header-info-shop {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.container-card.item-shop p {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+a.btn-shop,
+a.btn-shop:visited {
+  position: absolute;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  bottom: 3rem;
+  left: 42%;
+}
+
+a.btn-shop:hover {
+  font-size: 1.75em;
+  transform: translateX(2px);
+  transition: 0.1s ease-in;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.card-shop .feature-list li p {
+  margin: 0;
+}
+
+@media screen and (min-width: 549px) {
+  [class^='card-shop'] {
+    min-width: 26rem;
+  }
+}
