@@ -1,7 +1,7 @@
 /* Gallery page CSS */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 2rem;
 }
 
@@ -14,19 +14,17 @@
 }
 
 .grid-item img.lrg {
-    height: 35rem;
-    object-fit: scale-down;
-  }
-  
+  height: 35rem;
+  object-fit: scale-down;
+}
 
 figcaption {
-    font-size: .7em;
+  font-size: 0.7em;
 }
 
 /* scale img for med-lrg screens */
 @media screen and (min-width: 548px) {
-    .grid-item img.lrg {
-        height: 19rem;
-      }
-      
+  .grid-item img.lrg {
+    height: 19rem;
   }
+}
