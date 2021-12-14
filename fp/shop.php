@@ -1,12 +1,12 @@
 <?php include 'includes/header.php'; ?>
-  <!-- Start Shopping Page -->
-  <section>
+         <!-- Start Shopping Page -->
+         <section>
         <h2 id="shop">Shop</h2>
         <div class="grid-container shop">
           <div class="container-card item-shop">
-            <div class="card-shop one">
+            <div class="card-shop">
               <img
-                src="https://images.unsplash.com/photo-1638261127771-4d0201c4274e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=8"
+                src="images/trailSign.jpg" alt="Trail sign reading: Come forth into the light of things. Let nature be your teacher"
               />
               <div class="header-item-shop">
                 <h3>
@@ -26,9 +26,9 @@
             </div>
           </div>
           <div class="container-card item-shop">
-            <div class="card-shop two">
+            <div class="card-shop">
               <img
-                src="https://images.unsplash.com/photo-1492500318351-274a118407c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src="images/mtHelens.jpg" alt="View of Mount Rainieer framed by trees"
               />
               <div class="header-item-shop">
                 <h3>
@@ -48,9 +48,9 @@
             </div>
           </div>
           <div class="container-card item-shop">
-            <div class="card-shop three">
+            <div class="card-shop">
               <img
-                src="https://images.unsplash.com/photo-1502982899975-893c9cf39028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                src="images/moutainview.jpg" alt="High altitude shot of Mount Helens"
               />
               <div class="header-item-shop">
                 <h3>
@@ -70,9 +70,9 @@
             </div>
           </div>
           <div class="container-card item-shop">
-            <div class="card-shop four">
+            <div class="card-shop">
               <img
-                src="https://images.unsplash.com/photo-1524815643232-784d5cea8664?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src="images/pioneerSquare.jpg" alt="Fall trees in Pioneer Square"
               />
               <div class="header-item-shop">
                 <h3>
@@ -92,9 +92,9 @@
             </div>
           </div>
           <div class="container-card item-shop">
-            <div class="card-shop five">
+            <div class="card-shop">
               <img
-                src="https://images.unsplash.com/photo-1543421481-67fcbb18a3b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src="images/portlandStreets.jpg" alt="Young adults taking in the portland nightlife"
               />
               <div class="header-item-shop">
                 <h3>
@@ -115,7 +115,7 @@
           </div>
           <div class="container-card item-shop">
             <div class="card-shop six">
-              <img src="images/wanderingWalk.jpg" />
+              <img src="images/wanderingWalk.jpg" alt="A hiker walking into a dense forest" />
               <div class="header-item-shop">
                 <h3>
                   Title 6
@@ -132,7 +132,7 @@
             </div>
           </div>
           <div class="container-card item-shop">
-            <div class="card-shop six">
+            <div class="card-shop">
               <div class="header-info-shop">
                 <h3>Additional Information</h3>
               </div>
@@ -140,14 +140,13 @@
                 <ul>
                   <li>
                     <p>
-                      Need help picking out a frame? (link here)
+                      Need help picking out a <a href='https://www.digitalcameraworld.com/buying-guides/best-picture-frames' target='_blank'>frame</a>?
                     </p>
                   </li>
-                  <li><p>Best hiking destinations (link here)</p></li>
+                  <li><p>Need a breath of fresh air? <a href="https://www.cntraveler.com/gallery/best-hikes-in-seattle" target="_blank">Best Hikes around Seattle</a></p></li>
                   <li>
                     <p>
-                      How to use natural lighting when taking your own photos
-                      (link here)
+                      Need tips on photography? </br> <a href="https://expertphotography.com/natural-light-photography/" target="_blank">How to take advantage of natural lighting for your photography</a>
                     </p>
                   </li>
                 </ul>

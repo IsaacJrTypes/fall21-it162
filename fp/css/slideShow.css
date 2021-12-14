@@ -16,10 +16,12 @@ body {
 }
 
 .mySlides img {
-  height: 40vh;
+  height: 38vh;
   vertical-align: middle;
+  object-fit: cover;
   
 }
+
 
 /* Next & previous buttons */
 .prev,
@@ -123,24 +125,25 @@ body {
 @media screen and (min-width: 425px) {
     .mySlides img {
         height: 55vh;
-        object-fit: fill;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (min-width: 643px) {
+  .mySlides img {
+      height: 75vh;
     }
 }
 
 @media screen and (min-width: 925px) {
     .mySlides img {
-        width: 100%;
-        object-fit: fill;
+        height: 70rem;
       }
   }
 
 
-/* SlideShow Tablet-Desktop Breakpoint */
-@media screen and (min-width: 643px) {
-    .mySlides img {
-        height: 80vh;
-      }
-  }
+
 
 
 

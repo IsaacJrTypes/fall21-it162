@@ -52,6 +52,7 @@ a.btn-shop:hover {
 
 .card-shop .feature-list {
   margin: 2rem;
+  margin-left: 3rem;
 }
 .card-shop .feature-list p {
   margin: 1rem 0;
