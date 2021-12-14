@@ -5,8 +5,8 @@
 }
 
 .container-card.item-shop img {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 .header-item-shop h3 {
@@ -33,10 +33,10 @@
 a.btn-shop,
 a.btn-shop:visited {
   position: absolute;
-  color: black;
+  color: #000000;
   font-size: 1.5rem;
   text-decoration: none;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 1rem;
   padding: 1rem;
   bottom: 3rem;
