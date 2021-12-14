@@ -25,6 +25,22 @@ switch (THIS_PAGE) {
         $title = 'Photography Services';
         break;
 
+    case 'gallery.php':
+        $title = "Octavio's Gallery";
+        break;
+
+    case 'blog.php':
+        $title = 'Blog/About Page';
+        break;
+
+    case 'shop.php':
+        $title = 'Shop';
+        break;
+    
+    case 'contact.php':
+        $title = 'Contact Octavio';
+        break;
+
     default:
         $title = THIS_PAGE;
 }
