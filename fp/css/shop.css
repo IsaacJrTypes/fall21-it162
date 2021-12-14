@@ -1,6 +1,5 @@
 /* Shop page CSS */
 .grid.container-card.item-shop {
-    
 }
 .container-card.item-shop {
   text-align: start;
@@ -53,12 +52,12 @@ a.btn-shop:hover {
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
 }
 
-.card .feature-list li p {
+.card-shop .feature-list li p {
   margin: 0;
 }
 
-/* @media screen and (min-width: 549px) {
-    .grid-container .container-card.item-shop {
-        grid-column: 1 /  span 2;
-    }
-  } */
+@media screen and (min-width: 549px) {
+  [class^='card-shop'] {
+    min-width: 26rem;
+  }
+}
