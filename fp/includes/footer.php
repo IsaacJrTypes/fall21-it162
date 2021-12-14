@@ -15,13 +15,13 @@
             </div>
           </div>
           <div class="footer-link">
-            <p class="contact"><a href="contact.php">Contact</a></p>
+            <p class="contact"><a href="contactme.php">Contact</a></p>
           </div>
           <div class="footer-link">
             <p class="copyright">
               <small>
-                &copy; <?=date('Y')?> by
-                <a href="fp/contact.php">
+                &copy; <?= date('Y') ?> by
+                <a href="http://www.project-isaac.com/it162">
                   Isaac Jimenez,
                   <br />
                 </a>

@@ -44,11 +44,11 @@ legend {
 }
 
 /* End reCAPTCHA styles */
-.contact-feedback h2 {
+.contact-feedback h2.header-feedback {
   text-align: left;
   font-size: 2rem;
 }
 
-.contact-feedback p {
+.contact-feedback p.text-feedback {
   font-size: 1.8rem;
 }

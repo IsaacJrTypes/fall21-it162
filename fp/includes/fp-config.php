@@ -36,8 +36,8 @@ switch (THIS_PAGE) {
     case 'shop.php':
         $title = 'Shop';
         break;
-    
-    case 'contact.php':
+
+    case 'contactme.php':
         $title = 'Contact Octavio';
         break;
 
