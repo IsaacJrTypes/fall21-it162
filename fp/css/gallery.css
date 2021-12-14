@@ -24,6 +24,9 @@ figcaption {
 
 /* scale img for med-lrg screens */
 @media screen and (min-width: 548px) {
+  .grid-container {
+    gap: 1rem;
+  }
   .grid-item img.lrg {
     height: 19rem;
   }
