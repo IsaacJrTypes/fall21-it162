@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/slideShow.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/blog.css" />
     <link rel="stylesheet" href="css/frameHover.css" />
     <link rel="stylesheet" href="css/icon-font.css" />
     <!-- jQuary-->
