@@ -43,18 +43,18 @@
               <a href="#">About</a>
               <ul>
                 <li><a href="index1.php#service">Services</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="blog.php#about">Profile</a></li>
               </ul>
             </li>
             <li>
               <a href="#">Galleries</a>
               <ul>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="gallery.php">Collection</a></li>
+                <li><a href="shop.php">Shop</a></li>
               </ul>
             </li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="blog.php#blog">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
       </header>
