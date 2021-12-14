@@ -22,7 +22,7 @@
                   veritatis eaque id, quidem porro distinctio!
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">
@@ -44,7 +44,7 @@
                   veritatis eaque id, quidem porro distinctio!
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">
@@ -66,7 +66,7 @@
                   veritatis eaque id, quidem porro distinctio!
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">
@@ -88,7 +88,7 @@
                   veritatis eaque id, quidem porro distinctio!
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">
@@ -110,7 +110,7 @@
                   veritatis eaque id, quidem porro distinctio!
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">
@@ -128,7 +128,7 @@
                   Assumenda incidunt natus quod maiores cum animi eligendi eum
                 </p>
               </div>
-              <a class="btn-shop" href="#">Buy</a>
+              <a class="btn-shop" href="store.php">Buy</a>
             </div>
           </div>
           <div class="container-card item-shop">

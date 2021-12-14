@@ -50,7 +50,7 @@
               <a href="#">Galleries</a>
               <ul>
                 <li><a href="gallery.php">Collection</a></li>
-                <li><a href="shop.php">Shop</a></li>
+                <li><a href="shopGallery.php">Shop</a></li>
               </ul>
             </li>
             <li><a href="blog.php#blog">Blog</a></li>

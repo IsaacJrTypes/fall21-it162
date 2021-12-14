@@ -33,8 +33,12 @@ switch (THIS_PAGE) {
         $title = 'Blog/About Page';
         break;
 
-    case 'shop.php':
-        $title = 'Shop';
+    case 'shopGallery.php':
+        $title = 'Gallery Giftshop';
+        break;
+
+    case 'store.php':
+        $title = "Octavio's Store";
         break;
 
     case 'contactme.php':
