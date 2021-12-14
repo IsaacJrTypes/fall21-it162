@@ -126,16 +126,6 @@ div.disclaimer p {
   }
 }
 
-/* Service Page Tablet-Desktop Breakpoint */
-@media screen and (min-width: 643px) {
-  img {
-    width: 100%;
-    vertical-align: middle;
-  }
-  .wrap-container-box {
-    flex-direction: row;
-  }
-}
 
 /* Width Desktop Breakpoint */
 @media screen and (min-width: 968px) {

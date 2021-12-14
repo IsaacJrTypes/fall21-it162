@@ -52,8 +52,11 @@ a.btn-shop:hover {
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
 }
 
-.card-shop .feature-list li p {
-  margin: 0;
+.card-shop .feature-list {
+  margin: 2rem;
+}
+.card-shop .feature-list p {
+  margin: 1rem 0;
 }
 
 @media screen and (min-width: 549px) {
@@ -61,3 +64,15 @@ a.btn-shop:hover {
     min-width: 26rem;
   }
 }
+
+/* Service Page Tablet-Desktop Breakpoint */
+@media screen and (min-width: 643px) {
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .wrap-container-box {
+    flex-direction: row;
+  }
+}
+

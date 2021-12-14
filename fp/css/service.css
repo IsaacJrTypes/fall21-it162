@@ -42,13 +42,17 @@ h2 {
 }
 
 .card > .feature-list {
-  margin: 0 3rem;
+  margin: 0 3.5rem;
 }
 
 .card .feature-list p {
   text-align: left;
   font-size: 1.6rem;
   margin: 0.5rem;
+}
+
+.feature-list ul li::marker {
+  font-size: 1.5em;
 }
 /* Frontpage Shopping Section */
 section.frontpage-shopping {
