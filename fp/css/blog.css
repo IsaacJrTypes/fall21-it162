@@ -24,6 +24,7 @@ section#blog {
   flex-direction: column;
   justify-content: center;
   border-top: 2px solid gray;
+  margin: 0 3rem;
   
 }
 
@@ -62,6 +63,7 @@ img.profile {
       border-top: none;
     border-left: 2px solid gray;
     max-width: 30%;
+    margin: 3rem 0;
   }
 
   .aside-header {
