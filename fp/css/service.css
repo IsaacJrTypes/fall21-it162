@@ -9,7 +9,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* border: 2px solid black; */
   min-height: 30vh;
 }
 
@@ -27,25 +26,29 @@ h2 {
   border-radius: 1.5rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  min-width: 26rem;
+  min-width: 25rem;
   margin: 1.5rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
 
-.card > i {
-  font-size: 7rem;
+.card-service {
+  width: 25rem;
 }
 
-.card > h3 {
-  margin-top: 2rem;
+.card-service > i {
+  font-size: 6rem;
 }
 
-.card > .feature-list {
+.card-service > h3 {
+  margin-top: 1rem;
+}
+
+.card-service > .feature-list {
   margin: 0 3.5rem;
 }
 
-.card .feature-list p {
-  text-align: left;
+.card-service .feature-list p {
+  text-align: start;
   font-size: 1.6rem;
   margin: 0.5rem;
 }

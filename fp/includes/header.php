@@ -54,7 +54,7 @@
               </ul>
             </li>
             <li><a href="blog.php#blog">Blog</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="contactme.php">Contact</a></li>
           </ul>
         </nav>
       </header>
