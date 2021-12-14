@@ -11,7 +11,6 @@ h2 {
   justify-content: space-around;
   /* border: 2px solid black; */
   min-height: 30vh;
-  min-width: 10rem;
 }
 
 .container-card {
@@ -28,7 +27,7 @@ h2 {
   border-radius: 1.5rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  width: 25rem;
+  min-width: 26rem;
   margin: 1.5rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
