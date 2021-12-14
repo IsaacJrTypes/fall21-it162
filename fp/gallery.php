@@ -7,7 +7,6 @@
             <figure class="grid-item-frame">
               <img class="lrg"
               src="images/trailSign.jpg" alt="Trail sign reading: Come forth into the light of things. Let nature be your teacher"
-              
               />
               <figcaption>Caption 1 Here</figcaption>
             </figure>
