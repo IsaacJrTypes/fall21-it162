@@ -12,11 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/slideShow.css" />
     <link rel="stylesheet" href="css/frameHover.css" />
     <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/service.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+   
     <!-- jQuary-->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <!-- Menu Maker Plugin -->
