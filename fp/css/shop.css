@@ -47,9 +47,9 @@ a.btn-shop:visited {
 
 a.btn-shop:hover {
   font-size: 1.75em;
-  transform: translateX(2px);
+  transform: translateX(1px);
   transition: 0.1s ease-in;
-  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .card-shop .feature-list {
