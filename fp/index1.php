@@ -26,7 +26,7 @@
           <div class="numbertext">3 / 3</div>
           <img
             src="images/moutainview.jpg"
-            alt="High altitude shot of Mount Helens""
+            alt="High altitude shot of Mount Helens"
           />
           <div class="text">Caption Three</div>
         </div>

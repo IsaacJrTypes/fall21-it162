@@ -146,7 +146,7 @@
                   <li><p>Need a breath of fresh air? <a href="https://www.cntraveler.com/gallery/best-hikes-in-seattle" target="_blank">Best Hikes around Seattle</a></p></li>
                   <li>
                     <p>
-                      Need tips on photography? </br> <a href="https://expertphotography.com/natural-light-photography/" target="_blank">How to take advantage of natural lighting for your photography</a>
+                      Need tips on photography? <br> <a href="https://expertphotography.com/natural-light-photography/" target="_blank">How to take advantage of natural lighting for your photography</a>
                     </p>
                   </li>
                 </ul>
