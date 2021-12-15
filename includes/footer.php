@@ -14,8 +14,6 @@
       </main>
       <!-- END WRAPPER -->
 
-      <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-    <script src="js/button.js"></script>
       <!-- JavaScript associated with the W3Schools.com Top Navigation Response Exercise -->
       <script src="js/nav.js"></script>
       </body>

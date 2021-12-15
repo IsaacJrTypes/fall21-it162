@@ -50,6 +50,9 @@
       </footer>
       <!-- END Footer -->
     </main>
+    <!-- Adds button and slideshow from W3Schools -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <script src="js/button.js"></script>
     <script src="js/slideShow.js"></script>
   </body>
 </html>
