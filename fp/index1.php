@@ -127,7 +127,7 @@
           <div class="frame-container wrap-item">
             <img src="images/wanderingWalk.jpg" alt="guy hiking on a trail" />
             <div class="overlay">
-              <div class="text-link"><a href="shop.php">Shop</a></div>
+              <div class="text-link"><a href="shopGallery.php">Shop</a></div>
             </div>
           </div>
         </div>
