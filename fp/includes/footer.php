@@ -42,7 +42,7 @@
                   Valid CSS
                 </a>
                 <br />
-                <a href="disclaimer.html">Disclaimer</a>
+                <a href="disclaimer.php">Disclaimer</a>
               </small>
             </p>
           </div>

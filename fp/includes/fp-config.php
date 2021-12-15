@@ -45,6 +45,10 @@ switch (THIS_PAGE) {
         $title = 'Contact Octavio';
         break;
 
+    case 'disclaimer.php':
+        $title = 'Disclaimer page';
+        break;
+
     default:
         $title = THIS_PAGE;
 }
