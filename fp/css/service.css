@@ -77,7 +77,6 @@ section.frontpage-shopping {
   /* background: darkorchid; */
   margin: 4rem 0;
   font-size: 1.5rem;
-  min-height: 40vh;
 }
 
 .heading-shopping {
@@ -98,12 +97,9 @@ section.frontpage-shopping {
 
 .frame-container {
   position: relative;
-  max-width: 30rem;
+  flex-direction: row;
+  max-width: 40rem;
   max-height: 36rem;
   border: 25px solid white;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
-}
-
-.frame-container img {
-  object-fit: cover;
 }
