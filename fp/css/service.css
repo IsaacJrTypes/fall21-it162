@@ -99,7 +99,6 @@ section.frontpage-shopping {
   position: relative;
   flex-direction: row;
   max-width: 40rem;
-  max-height: 36rem;
   border: 25px solid white;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
 }
