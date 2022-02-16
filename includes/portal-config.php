@@ -27,12 +27,6 @@ switch (THIS_PAGE) {
         $PageID = 'Welcome';
         break;
 
-    case 'big/index.php':
-        $title = "Isaac's IT162 Home Page";
-        $logo = 'fa-home';
-        $PageID = 'Big Assignment';
-        break;
-
     case 'aia.php':
         $title = "Isaac's IT162 AIA Page";
         $logo = 'fa-users';
@@ -69,7 +63,6 @@ switch (THIS_PAGE) {
 
 //place URL & labels in the array here for navigation:
 $nav1['index.php'] = 'Home';
-$nav1['big/index.php'] = 'Big';
 $nav1['aia.php'] = 'AIA';
 $nav1['flowchart.php'] = 'Flowchart';
 $nav1['fp/index1.php'] = 'Final Project';
